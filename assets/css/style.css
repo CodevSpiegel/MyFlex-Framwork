@@ -1,0 +1,120 @@
+/* ======================= */
+/* GENERAL SETTINGS */
+/* ======================= */
+body {
+    font-family: var(--base-font);
+    background-color: var(--section-color-1);
+}
+
+header {
+    width: 100%;
+    padding: 3.75rem 0rem 2.5rem 0rem;
+    box-shadow: 0 1px 12px var(--section-color-2);
+}
+
+.wrapper {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.button a{
+    border-radius: 0.3125rem;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.button a:hover {
+    background: var(--primary-color-hover);
+}
+
+
+/* ======================= */
+/* NAVIGATION */
+/* ======================= */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 3rem;
+    width: 100%;
+}
+
+header nav ul a:hover {
+    color: var(--primary-color);
+}
+
+header nav ul svg {
+    display: none;
+}
+
+
+/* ======================= */
+/* MAIN */
+/* ======================= */
+/* main section { background-color: var(--section-color-1) } */
+main section:nth-child(even) { background-color: var(--section-color-2) }
+
+section {
+    padding: 1rem 0;
+}
+
+
+/* ======================= */
+/* FOOTER */
+/* ======================= */
+footer {
+    padding: 2rem 0;
+}
+
+
+/* ======================= */
+/* MEDIA QUERIES */
+/* ======================= */
+@media screen and (max-width: 1352px) {
+    .wrapper {
+        width: 860px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 668px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 402px;
+    }
+    header nav {
+        align-items: start;
+    }
+    header nav .account {
+        display: none;
+    }
+    header nav ul {
+        gap: 1rem;
+        align-items: end;
+        flex-direction: column;
+    }
+    header nav ul li {
+        text-align: center;
+        width: 100%;
+    }
+    header nav ul svg {
+        display: flex;
+    }
+}

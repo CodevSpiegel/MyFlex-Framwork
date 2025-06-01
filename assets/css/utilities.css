@@ -1,0 +1,83 @@
+
+/*----- FlexBox -----*/
+.flex { display: flex }
+.column { flex-direction: column }
+.row { flex-direction: row }
+.x-center { justify-content: center }
+.y-center { align-items: center }
+.between { justify-content: space-between }
+.arround { justify-content: space-around }
+.evenly { justify-content: space-evenly }
+
+
+/*----- Grid -----*/
+.grid { display: grid }
+.t-col-1fr { grid-template-columns: 1fr }
+.t-col-2x1fr { grid-template-columns: repeat(2, 1fr) }
+.t-col-3x1fr { grid-template-columns: repeat(3, 1fr) }
+.t-col-4x1fr { grid-template-columns: repeat(4, 1fr) }
+.t-col-5x1fr { grid-template-columns: repeat(5, 1fr) }
+.t-col-6x1fr { grid-template-columns: repeat(6, 1fr) }
+.t-rows-1fr { grid-template-rows: 1fr }
+.t-rows-2x1fr { grid-template-rows: repeat(2, 1fr) }
+.t-rows-3x1fr { grid-template-rows: repeat(3, 1fr) }
+.t-rows-4x1fr { grid-template-rows: repeat(4, 1fr) }
+.t-rows-5x1fr { grid-template-rows: repeat(5, 1fr) }
+.t-rows-6x1fr { grid-template-rows: repeat(6, 1fr) }
+.self-center { align-self: center }
+.self-start {align-self: flex-start }
+.self-end {align-self: flex-end }
+.self-baseline { align-self: baseline }
+.xy-center { align-items: center;}
+
+
+/*----- Gap -----*/
+.gap2 { gap: 2px }
+.gap4 { gap: 4px }
+.gap6 { gap: 6px }
+.gap8 { gap: 8px }
+.gap10 { gap: 10px }
+.gap12 { gap: 12px }
+.gap14 { gap: 14px }
+.gap16 { gap: 16px }
+.gap18 { gap: 18px }
+.gap20 { gap: 20px }
+.gap22 { gap: 22px }
+.gap24 { gap: 24px }
+.gap26 { gap: 26px }
+.gap28 { gap: 28px }
+.gap30 { gap: 30px }
+.gap32 { gap: 32px }
+.gap34 { gap: 34px }
+.gap36 { gap: 36px }
+.gap38 { gap: 38px }
+.gap40 { gap: 40px }
+.gap42 { gap: 42px }
+.gap44 { gap: 44px }
+.gap46 { gap: 46px }
+.gap48 { gap: 48px }
+.gap50 { gap: 50px }
+.gap52 { gap: 52px }
+.gap54 { gap: 54px }
+.gap56 { gap: 56px }
+.gap58 { gap: 58px }
+.gap60 { gap: 60px }
+.gap62 { gap: 62px }
+.gap64 { gap: 64px }
+.gap66 { gap: 66px }
+.gap68 { gap: 68px }
+.gap70 { gap: 70px }
+.gap72 { gap: 72px }
+.gap74 { gap: 74px }
+.gap76 { gap: 76px }
+.gap78 { gap: 78px }
+.gap80 { gap: 80px }
+
+
+/*----- Utilities -----*/
+.txt-center { text-align: center;}
+
+.bg-color-1 { background-color: aqua;}
+.bg-color-2 { background-color: bisque;}
+.bg-color-3 { background-color: chartreuse;}
+.bg-color-4 { background-color: rgb(255, 176, 176);}
